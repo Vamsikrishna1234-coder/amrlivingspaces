@@ -73,6 +73,7 @@ const Gallery = () => {
               <img
                 src={item.image}
                 alt={item.title}
+                loading="lazy"
                 className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
               />
 
@@ -128,6 +129,7 @@ const Gallery = () => {
                 <img
                   src={activeImage.image}
                   alt={activeImage.title}
+                  loading="lazy"
                   className="w-full max-h-[70vh] sm:max-h-[80vh] object-cover rounded-[22px] sm:rounded-[28px]"
                 />
 

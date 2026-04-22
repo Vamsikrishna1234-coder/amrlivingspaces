@@ -47,6 +47,7 @@ const VisionaryLeaders = () => {
               <img
                 src={img1}
                 alt="Mr A M Reddy"
+                loading="lazy"
                 className="rounded-3xl h-[320px] sm:h-[480px] lg:h-[520px] w-full object-cover shadow-xl"
               />
 
@@ -55,6 +56,7 @@ const VisionaryLeaders = () => {
                 <img
                   src="https://www.amrlivingspaces.com/wp-content/uploads/2021/08/Image1.png"
                   alt="Meeting"
+                  loading="lazy"
                   className="rounded-3xl h-[180px] sm:h-[230px] lg:h-[250px] w-full object-cover shadow-xl"
                 />
 
@@ -170,6 +172,7 @@ const VisionaryLeaders = () => {
             <img
               src={img2}
               alt="Mr Mouli"
+              loading="lazy"
               className="rounded-3xl w-full h-[320px] sm:h-[420px] lg:h-[450px] object-cover shadow-xl"
             />
           </motion.div>

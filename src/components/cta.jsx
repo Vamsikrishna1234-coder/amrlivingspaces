@@ -46,6 +46,7 @@ const FloatingActionBar = () => {
         style={{
           backgroundImage: `url('${img1}')`,
         }}
+        loading="lazy"
       />
 
       {/* Overlay */}

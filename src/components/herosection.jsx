@@ -17,6 +17,7 @@ const HeroSection = () => {
         <source
           src={Realestate}
           type="video/mp4"
+          loading="lazy"
         />
       </video>
 

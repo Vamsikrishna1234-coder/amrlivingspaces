@@ -24,6 +24,7 @@ const AboutAMRSection = () => {
             <img
               src={img1}
               alt="AMR Living Spaces"
+              loading="lazy"
               className="w-full h-[320px] sm:h-[450px] md:h-[560px] lg:h-[650px] object-cover hover:scale-105 transition duration-700"
             />
           </div>

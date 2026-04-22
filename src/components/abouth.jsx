@@ -134,6 +134,7 @@ export default function AboutSection() {
         <div className="flex-1 w-full max-w-xl order-1 lg:order-2">
           <img
             src={buildingImg}
+            loading="lazy"
             alt="Vakillu Homes Building"
             className="w-full h-[260px] sm:h-[360px] md:h-[430px] rounded-2xl object-cover shadow-md"
           />

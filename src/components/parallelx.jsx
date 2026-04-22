@@ -13,6 +13,7 @@ const ParallelXSection = () => {
         style={{
           backgroundImage: `url(${img1})`,
         }}
+        loading="lazy"
       >
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/60 to-black/40" />

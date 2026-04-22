@@ -16,6 +16,7 @@ const AboutIntro = () => {
           <img
             src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1600"
             alt="AMR Living Spaces"
+            loading="lazy"
             className="w-full h-full object-cover"
           />
 

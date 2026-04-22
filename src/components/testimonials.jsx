@@ -126,6 +126,7 @@ const TestimonialsSection = () => {
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
                   alt="Google"
+                  loading="lazy"
                   className="w-7 h-7 sm:w-8 sm:h-8"
                 />
               </div>
@@ -142,12 +143,14 @@ const TestimonialsSection = () => {
                   <img
                     src={testimonials[current].image}
                     alt=""
+                    loading="lazy"
                     className="w-12 h-12 sm:w-14 sm:h-14 rounded-full border-2 border-white object-cover"
                   />
 
                   <img
                     src={testimonials[current].image2}
                     alt=""
+                    loading="lazy"
                     className="w-12 h-12 sm:w-14 sm:h-14 rounded-full border-2 border-white object-cover"
                   />
                 </div>
