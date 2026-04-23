@@ -100,13 +100,13 @@ const FloatingActionBar = () => {
                 }}
                 whileTap={{ scale: 0.97 }}
                 viewport={{ once: true }}
-                className="group relative bg-white/95 backdrop-blur-xl rounded-3xl p-5 sm:p-6 shadow-2xl border border-white/20 hover:border-[#f57c00]/40 flex flex-col items-center text-center overflow-hidden transition-all duration-500 min-h-[250px]"
+                className="group relative bg-white/95 backdrop-blur-xl rounded-3xl p-5 sm:p-4 shadow-2xl border border-white/20 hover:border-[#f57c00]/40 flex flex-col items-center text-center overflow-hidden transition-all duration-500 min-h-[100px]"
               >
                 {/* Hover Glow */}
                 <div className="absolute inset-0 bg-gradient-to-br from-[#f57c00]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                 {/* Icon */}
-                <div className="relative w-16 h-16 sm:w-18 sm:h-18 rounded-2xl bg-[#f57c00]/10 flex items-center justify-center mb-5 group-hover:bg-[#f57c00] transition-all duration-500">
+                <div className="relative w-16 h-16 sm:w-15 sm:h-8 rounded-2xl bg-[#f57c00]/10 flex items-center justify-center mb-5 group-hover:bg-[#f57c00] transition-all duration-500">
                   <Icon
                     size={28}
                     className="text-[#f57c00] group-hover:text-white transition-all duration-500"
