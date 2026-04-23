@@ -1,5 +1,5 @@
 import React from "react";
-import Realestate from "../assets/realestate.mp4";
+import Realestate from "../public/videos/realestate.mp4";
 
 const HeroSection = () => {
   return (
@@ -11,7 +11,7 @@ const HeroSection = () => {
         loop
         muted
         playsInline
-        preload="auto"
+        preload="metadata"
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source
