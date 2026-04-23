@@ -1,29 +1,18 @@
 import React from "react";
-import Realestate from "../public/videos/realestate.mp4";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-screen min-h-[420px] sm:min-h-[500px] md:min-h-screen overflow-hidden">
-
-      {/* Background Video */}
+    <section className="relative w-full h-screen overflow-hidden">
       <video
         autoPlay
-        loop
         muted
+        loop
         playsInline
-        preload="metadata"
+        preload="none"
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source
-          src={Realestate}
-          type="video/mp4"
-          loading="lazy"
-        />
+        <source src="/videos/realestate.mp4" type="video/mp4" />
       </video>
-
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/0 backdrop-blur-[0px]"></div>
-
     </section>
   );
 };
